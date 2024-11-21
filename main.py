@@ -123,7 +123,7 @@ def main():
     current_block = Block(random.choice(list(SHAPES.values())), random.choice(COLORS))
     running = True
     fall_time = 0
-    fall_speed = 500
+    fall_speed = 30
 
     while running:
         screen.fill(BLACK)
